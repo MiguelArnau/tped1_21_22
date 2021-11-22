@@ -71,11 +71,15 @@ a {
   a:hover.enlace {
     text-decoration:underline;
     color: aquamarine;
+    position: relative;
+    left: 5px;
   }
 
   a:hover.ninguno {
     text-decoration:line-through;
     color: aquamarine;
+    position: relative;
+    left: 5px;
   }
 
   nav li {
@@ -86,6 +90,7 @@ header{
 width: 100%;
 height: 100px;
 position: fixed;
+background-color: aliceblue;
 
 }
 header nav {
@@ -93,4 +98,5 @@ header nav {
     top: 0;
     right: 50px;
     margin-top: -80px; 
+ 
 }
