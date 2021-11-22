@@ -1,0 +1,96 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 25pt;
+    margin: -8px;
+    
+}
+#cajaSuperior {
+    width: 100vw; /* que ocupe el ancho de la pantalla */
+    height: 100vh; /* para que sea cuadrada (igual a width) */
+    background-image: url(img/fondo.jpg);
+    background-size: cover; 
+    padding-top: 20vw;
+    
+}
+
+
+
+.medio {
+    padding-left: 500px;
+    padding-bottom: 500px;
+
+}
+
+.negro {
+    background-color: black;
+    font-size: 55pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 500px;
+    height: 1000px;
+    padding-top: 400px;
+}
+
+h1 {
+    font-weight: lighter;
+    margin-top: 200px;
+   
+}
+
+h2 {
+    color: rgb(180, 180, 180);
+    font-size: 10pt;
+    font-size: 70%;
+    line-height: 1.8;
+    margin-bottom: 200px;
+
+}
+
+ul {
+    color: rgb(180, 180, 180);
+    font-size: 10pt;
+    font-size: 70%;
+    line-height: 1.8;
+margin-top: 100px;
+margin-left: -40px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    margin-right: 80px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+  }
+
+  
+  
+  a:hover.enlace {
+    text-decoration:underline;
+    color: aquamarine;
+  }
+
+  a:hover.ninguno {
+    text-decoration:line-through;
+    color: aquamarine;
+  }
+
+  nav li {
+    display: inline-block; 
+   
+}
+header{
+width: 100%;
+height: 100px;
+position: fixed;
+
+}
+header nav {
+    text-align: end;
+    top: 0;
+    right: 50px;
+    margin-top: -80px; 
+}
