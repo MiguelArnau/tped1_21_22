@@ -1,0 +1,128 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background-image: url(fondo-1400x860.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+header #logo {
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
+
+
+header nav {
+    padding-top: 10px;
+}
+
+nav li {
+    display: inline-block;    
+}
+
+header nav li {
+    width: 20ex;
+    text-transform: uppercase;
+    color: white;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 50px;
+}
+
+main #texto {
+    padding-top: 10em;
+    padding-left: 50px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+main #texto > * {
+    padding: 1em;
+    padding-right: 4em;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main #leyendaImagen {
+    width: 50%;
+    padding-left: 50%;
+}
+
+#leyendaImagen img {
+    width: 2em;
+    height: auto;
+}
+
+
+
+nav {
+    
+    height: 50px;
+}
+
+figcaption{
+
+    font-weight: bold;
+}
+
+button{
+background-color:limegreen;
+color: white;
+border-color: limegreen;
+width: 30%;
+border-radius: 4px;
+}
+
+#lista{
+background-color: #2a2829;
+color: white;
+
+
+}
+#separador {
+    height: 70px;
+    background-image: url(barra.png);
+    background-repeat: repeat-x;
+}
+
+#separador img {
+    padding-left: 20em;
+}
+
+footer {
+    background-color: #2a2829;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer img {
+    padding-left: 1em;
+    width: 3em;
+    height: auto;
+}
+footer div {
+    box-sizing: border-box;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: lightgrey;    
+}
+.producto {
+    display: block;
+    padding-left: 1em;
+    font-size: 12px;
+}
