@@ -23,7 +23,7 @@ width: 30%;
 background-color: white;
 height: 300px;
 display:block;
-font-family: 'Anton', sans-serif;
+font-family: 'Rubik Beastly', cursive;
 
 }
 
@@ -33,8 +33,8 @@ font-family: 'Anton', sans-serif;
     height: 300px;
     margin-left: 10px;
     display:block;
-    font-family: 'Major Mono Display', monospace;
-    
+    font-family: 'The Nautigal', cursive;
+    font-size:x-large;
     }
 
     #cuadrado3{
@@ -44,7 +44,7 @@ font-family: 'Anton', sans-serif;
         margin-left: 10px;
         display:block;
         font-family: "myFont", "Bitstream Vera Serif", serif;
-        font-family: 'Lobster', cursive;
+        font-family: 'Bebas Neue', cursive;
         }
 
         #cuadrado4{
@@ -55,5 +55,16 @@ font-family: 'Anton', sans-serif;
             margin-left: 10px;
             display:block;
             font-family: "myFont", "Bitstream Vera Serif", serif;
-            font-family: 'Raleway', sans-serif;
+            font-family: 'Abril Fatface', cursive;
             }
+
+            #cuadrado5{
+                width: 30%;
+                background-color: white;
+                height: 300px;
+                margin-top: 10px;
+                margin-left: 10px;
+                display:block;
+                font-family: "myFont", "Bitstream Vera Serif", serif;
+                font-family: 'Josefin Sans', sans-serif;
+                }
