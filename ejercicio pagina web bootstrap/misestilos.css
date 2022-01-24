@@ -1,0 +1,68 @@
+#principal {
+    
+    
+}
+.uno{
+    
+     text-align: left;
+    padding: 20px;
+    margin: auto;
+}
+
+.Menu1{
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  
+   
+}
+.Menu1 a {
+    
+    font-size: 0.8rem;
+    color: limegreen;
+   
+}
+
+.Menu1 li {
+    
+    font-size: 0.8rem;
+    color: limegreen;
+    list-style: none;
+    text-align: justify;
+}
+
+p{
+    text-align:left;
+    font-size: 0.7rem;
+}
+
+h1 {
+    
+    font-size: 2rem;
+    text-align: justify;
+    color: cadetblue;
+}
+
+h2 {
+    
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+h4 {
+    
+ font-size: 1.2rem;  
+    text-align:left;
+    
+}
+
+.micard{
+   
+    
+}
+
+.card-columns{
+   
+    
+    
+}
