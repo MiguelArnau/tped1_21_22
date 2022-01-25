@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+  height: 125px;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #263380;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  height: 520px;
+}
+
+img{
+margin-top: 5vw;
+
+}
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  .menu {
+    flex-direction: row;
+    width: 20%;
+  }
+  
+  .menu a {
+    width: 80%;
+    
+   
+  }
+  
+  .main {
+    width: 60%;
+  }
+  
+  .right {
+
+    width: 20%;
+   
+    height: 520px;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+  .menu {
+ 
+    width: 20%;
+  }
+  
+  .menu a {
+    width: 80%;
+   
+  }
+  
+  .main {
+    width: 60%;
+  }
+  
+  .right {
+
+    width: 20%;
+   
+    height: 520px;
+  }
+
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+
+.portfolio1 {
+background-color: aqua;
+height: 5vw;
+text-align: center;
+float: left;
+width: 100%;
+padding-bottom: 7vw;
+margin-top: 10vw;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arial Black", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.flex-contenedor1 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 2000px;
+}
+
+.flex-contenedor1 > div{
+    width: 33%;
+    padding: 6px;
+
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    
+  }
+
+  footer{
+    background-color: rgb(65, 136, 136);
+    width: 100vw;
+    float: left;
+  }
